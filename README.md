@@ -20,15 +20,17 @@ LLM-powered explanations.
 - Regex — clause and phrase detection
 
 ## Project Structure
-ai_compliance_checker/
-├── app.py               # Streamlit UI
-├── loaders.py           # PDF, DOCX, TXT document loading
-├── splitters.py         # Text chunking with overlap
-├── clause_detection.py  # Regex-based detection logic
-├── llm.py              # Groq API integration
-├── .env.example         # Environment variable template
-├── SampleBusinessContract.docx  # Test contract
-└── requirements.txt
+
+    ai_compliance_checker/
+    ├── app.py
+    ├── loaders.py
+    ├── splitters.py
+    ├── clause_detection.py
+    ├── llm.py
+    ├── .env.example
+    ├── SampleBusinessContract.docx
+    └── requirements.txt
+
 
 ## Setup
 
